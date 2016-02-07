@@ -4,8 +4,8 @@ machine:
 dependencies:
   override:
     - docker info
-    - docker build -t thewillhuang/gulpStarter:$CIRCLE_SHA1 .
-    - docker run thewillhuang/gulpStarter:$CIRCLE_SHA1 npm run prod
+    - docker build -t gulpStarter:$CIRCLE_SHA1 .
+    - docker run gulpStarter:$CIRCLE_SHA1 npm run prod
 test:
   override:
-    - docker run thewillhuang/gulpStarter:$CIRCLE_SHA1 npm run test;
+    - docker run gulpStarter:$CIRCLE_SHA1 npm run test;
