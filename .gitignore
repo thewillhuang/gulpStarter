@@ -1,0 +1,17 @@
+.DS_Store
+.sass-cache
+build
+Desktop.ini
+node_modules
+bower_components
+**/*.log
+public
+public/**/*
+plugins
+**/*.mwb.bak
+.awspublish-unitednurseregistry.com
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
