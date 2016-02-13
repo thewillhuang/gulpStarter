@@ -9,7 +9,7 @@
   },
   "scripts": {
     "development": "NODE_ENV='development' gulp",
-    "publish": "NODE_ENV='production' gulp build:production && gulp publish",
+    "publish": "npm run production; gulp publish",
     "nuke": "rm -rf node_modules src/static/bower_components public; npm i; npm run prod; npm run dev;",
     "dev": "npm run development",
     "prod": "npm run production",
