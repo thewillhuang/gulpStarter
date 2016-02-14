@@ -47,7 +47,7 @@ export default {
       },
       create: {
         params: {
-          Bucket: 'gulpstarter.com',
+          Bucket: 'whatever.com',
         },
         region: 'us-west-2',
       },
