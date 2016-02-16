@@ -119,7 +119,7 @@ export default {
     },
 
     html: {
-      src: 'html',
+      src: 'markup',
       dest: './',
       htmlmin: {
         collapseWhitespace: true,
