@@ -4,6 +4,7 @@ build
 Desktop.ini
 node_modules
 bower_components
+generated
 **/*.log
 public
 public/**/*
