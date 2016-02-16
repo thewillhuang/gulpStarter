@@ -121,12 +121,9 @@ export default {
     html: {
       src: 'html',
       dest: './',
-      dataFile: 'data/global.json',
       htmlmin: {
         collapseWhitespace: true,
       },
-      extensions: ['html', 'json'],
-      excludeFolders: ['layouts', 'shared', 'macros', 'data'],
     },
 
     images: {
