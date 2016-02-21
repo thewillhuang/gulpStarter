@@ -1,0 +1,19 @@
+/* Base Element */
+@font-face {
+  font-family: ShorelinesScriptBold;
+  src: url("../fonts/Shorelines-Script-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: ShorelinesScriptBold;
+  font-weight: bold;
+  src: url("../fonts/Shorelines-Script-Bold.otf") format("opentype");
+}
+
+html, body {
+  background: #fff;
+  margin: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+  padding: 0;
+}

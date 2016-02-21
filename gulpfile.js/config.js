@@ -47,7 +47,7 @@ export default {
       },
       create: {
         params: {
-          Bucket: 'whatever.com',
+          Bucket: 'sarahleemusic.com',
         },
         region: 'us-west-2',
       },
@@ -95,8 +95,8 @@ export default {
       extractSharedJs: true,
       sharedJsName: 'shared',
       entries: {
-        app: ['./app.js'],
-        page: ['./page.js'],
+        // app: ['./app.js'],
+        // page: ['./page.js'],
       },
       extensions: ['js', 'jsx'],
     },
@@ -108,7 +108,7 @@ export default {
         browsers: ['> 1%', 'last 3 version'],
       },
       settings: {
-        indentedSyntax: true,
+        indentedSyntax: false,
         includePaths: neat,
       },
       sourcemaps: {
@@ -119,7 +119,7 @@ export default {
     },
 
     html: {
-      src: 'markup',
+      src: 'html',
       dest: './',
       htmlmin: {
         collapseWhitespace: true,

@@ -1,7 +1,7 @@
 import config from '../config';
 import { reject, isNil } from 'ramda';
 // Grouped by what can run in parallel
-const assetTasks = ['fonts', 'iconFont', 'static', 'images', 'svgSprite'];
+const assetTasks = ['fonts', 'static', 'images'];
 const codeTasks = ['html', 'css', 'js'];
 
 const jsTasks = {

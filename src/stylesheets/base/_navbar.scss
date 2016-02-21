@@ -1,0 +1,98 @@
+@import url(https://fonts.googleapis.com/css?family=Radley);
+
+.nav-bar {
+  background: transparent;
+  font-family: ShorelinesScriptBold;
+  font-size: 2em;
+  font-weight: 900;
+  height: 150px;
+  line-height: 100px;
+  position: fixed;
+  text-align: center;
+  -webkit-transition: all 1.0s ease;
+  -moz-transition: all 1.0s ease;
+  -o-transition: all 1.0s ease;
+  transition: all 1.0s ease;
+  width: 100%;
+  z-index: 10000;
+}
+
+.nav-bar a {
+  color: #343434;
+  display: block;
+  margin: 0 0 -30px 0;
+  text-decoration: none;
+}
+
+.nav-bar a:hover {
+  color: #343434;
+  text-decoration: none;
+}
+
+.shrink {
+  font-family: 'Radley', serif;
+  font-size: 1em;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: 1px;
+  line-height: 50px;
+  position: fixed;
+  top: -5px;
+  text-transform: uppercase;
+}
+
+.nav-items {
+  background: transparent;
+}
+
+.nav-items li {
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+
+.nav-items a {
+  color: gray;
+  font-weight: 300;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.nav-items a:hover {
+  color: #FFAED8;
+}
+
+
+/* media queries */
+.navbar-fixed-top {
+  display: none;
+}
+
+@media only screen and (max-width: 510px) {
+  .nav-bar {
+    display: none;
+  }
+
+  .navbar-fixed-top {
+    display: block !important;
+    background: #fff;
+  }
+
+  .navbar-brand {
+    font-family: ShorelinesScriptBold;
+    font-size: 14px;
+    font-weight: 900;
+    position: relative;
+    top: 5px;
+  }
+
+  .nav > li {
+    text-align: center;
+  }
+
+/*  .nav li a:hover {
+    color: #FFAED8;
+  }*/
+}
